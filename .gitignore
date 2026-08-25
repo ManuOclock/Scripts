@@ -1,0 +1,14 @@
+# Secrets - ne JAMAIS commiter
+.env
+*.key
+*.pem
+credentials.json
+
+# Sorties de scripts
+*.log
+exports/
+rapports/*.csv
+
+# Fichiers système
+.DS_Store
+Thumbs.db
