@@ -1,9 +1,9 @@
 #Scripts
  
  
-# scripts-infra
+# Scripts
 
-Mes scripts d'administration système, écrits pendant la saison Scripting.
+Mes scripts d'administration système & d'autres projets d'entrainements, écrits pendant la saison Scripting et après.
 Un dossier par langage, un script par tâche.
 
 ## Contenu
