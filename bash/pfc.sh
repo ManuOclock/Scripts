@@ -1,5 +1,13 @@
 #!/bin/bash
-# Shebang : indique que le script doit être exécuté avec bash
+# ------------------------------------------------------------
+# pfc.sh
+# Objet    : liste les fichiers de log de plus de 30 jours
+# Auteur   : emmanuelp1603@gmail.com
+# Usage    : ./pfc.sh [chemin] [jours]
+# Prérequis: lecture sur le dossier cible, testé sur Debian 13
+# ------------------------------------------------------------
+
+
 
 # Compteurs de score, initialisés à 0
 score_joueur=0
