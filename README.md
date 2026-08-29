@@ -11,7 +11,9 @@ Un dossier par langage, un script par tâche.
 | Script Bash | Rôle |
 |---|---|
 | `bash/pfc.sh` | jeu de pierre feuille ciseaux contre l'ordinateur |
+| `bash/generer-faux-logs.sh` |  Génère de faux fichiers de logs datés entre 2 & 60 jours avant, permet de tester les scripts de purges |
 | `bash/purge-logs.sh` | Liste les fichiers de log de plus de N jours |
+| `bash/purge-logs2.sh` | Liste & suppression des fichiers de log de plus de N jours, édition des logs & codes erreurs |
 | `bash/check-disk-space.sh` | Contrôle de l'espace disque utilisé / libre - TRAVAIL EN COURS |
 
 | Script Powershell| Rôle |
@@ -23,9 +25,12 @@ Un dossier par langage, un script par tâche.
 
 ## Utilisation
 
+
 ```bash
 ./bash/pfc.sh
 ./bash/purge-logs.sh /var/log 30
+./bash/purge-logs2.sh <dossier> [jours]
+./bash/purge-logs2.sh /var/log 30
 ```
 
 ```powershell
