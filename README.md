@@ -8,11 +8,18 @@ Un dossier par langage, un script par tâche.
 
 ## Contenu
 
-| Script | Rôle |
+| Script Bash | Rôle |
 |---|---|
 | `bash/pfc.sh` | jeu de pierre feuille ciseaux contre l'ordinateur |
 | `bash/purge-logs.sh` | Liste les fichiers de log de plus de N jours |
+| `bash/check-disk-space.sh` | Contrôle de l'espace disque utilisé / libre - TRAVAIL EN COURS |
+
+| Script Powershell| Rôle |
+|---|---|
 | `powershell/inventaire.ps1` | Affiche les informations de base du système : OS, CPU, RAM et DISK |
+| `powershell/info_systeme.ps1` | Affiche un état des lieux du système : Identité, OS, CPU, RAM, DISK |
+| `powershell/backup_avance.ps1` | Copie un dossier source (avec ses sous-dossiers et fichiers) vers un dossier de destination, copie en bloc et édition de log |
+| `powershell/backup_progress.ps1` | Copie un dossier source (avec ses sous-dossiers et fichiers) vers un dossier de destination, copie fichier par fichier, barre de progression et édition de log  |
 
 ## Utilisation
 
@@ -23,6 +30,10 @@ Un dossier par langage, un script par tâche.
 
 ```powershell
 .\powershell\inventaire.ps1
+.\powershell\info_systeme.ps1
+.\powershell\backup_avance.ps1
+.\powershell\backup_progress.ps1
+
 ```
 
 ## Prérequis
